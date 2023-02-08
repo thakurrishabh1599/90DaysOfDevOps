@@ -1,0 +1,24 @@
+Day:1
+
+- What is Devops?
+
+Devops is the combination of Development as well as operation.It is also a set of practices that automate and integerate the processes between software development and IT teams.
+
+- What is Automation?
+
+Automation is the tasks that reduce the manual intervention so that the deployment can be done faster.It can be implemented through different tools like Jenkins,Ansible,etc.
+
+- What is Scaling?
+
+Scaling means automation-driven environment where we need to acquire  devops tools in such a way that it can handle the large traffic on the application for better user experience  .Actually we do scaling in 2 ways 
+1. Horizontal Scaling(Either increasing or decreasing the number of servers) 2.Vertical Scaling(By adding ressources to the same server)
+
+- What is Infrastructure?
+
+Infrastructure are the servers that are present physically or in cloud with limited no of servers,RAM,CPU,core,etc.
+
+- Why DevOps is Important, etc
+1.Reduces manual Intervention
+2. It helps in Faster Innovation as it deployed the product faster then we will have better time to innovate faster.
+3. Due to Devops we will have less prone of errors.
+4.Helps to reduce Deployment Failures
