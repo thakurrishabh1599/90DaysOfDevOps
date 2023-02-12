@@ -1,0 +1,63 @@
+1. Create a shell script to make directory from one range to another range accepting it from command line arguments.
+
+./createDirectory movie 1 50
+
+for (( i=$2 ; i<=$3 ; i++ )); 
+
+do
+
+  mkdir $1$i
+
+done
+
+
+
+2. Cron and Crontab
+
+Please visit this URL by Shubham Londhe helps to understand about how to write cron jobs.
+
+https://www.youtube.com/watch?v=aolKiws4Joc&feature=youtu.be
+
+
+
+3.USER Management Commands 
+
+3.1 List of all the users in Linux
+
+awk -F ':' '{print $1}' /etc/passwd
+
+3.2 To get id of username 
+
+id username
+
+3.3 to add new user to the directory
+
+sudo useradd username
+
+3.4 To assign password
+
+passwd usrname
+
+3.5 Accessing user configuration file
+
+cat /etc/passwd
+
+3.6 Command to change user id of username
+
+usermod  -u new_id username
+
+3.7 Command to modify the group id of a user
+
+usermod -g  new_group_id username
+
+3.8 change user login name 
+
+usermod -l new_login_name old_login_name
+
+3.9 Command to change home directory
+
+usermod -d new_home_directory username
+
+3.10 command to del username if it is not a part of group
+
+userdel -r username

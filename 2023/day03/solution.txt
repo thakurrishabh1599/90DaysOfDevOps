@@ -1,7 +1,3 @@
-Day 3 Task: Basic Linux Commands
-
-Task: What is the linux command to
-
 1. To view what's written in a file.
 2. To change the access permissions of files.
 3. To check which commands you have run till now. 
@@ -16,5 +12,36 @@ Command  : rm -rf File
 10. Add content in Colors.txt (One in each line) - Red, Pink, White, Black, Blue, Orange, Purple, Grey.
 11. To find the difference between fruits.txt and Colors.txt file.
 
-
-Reference: https://www.linkedin.com/pulse/linux-commands-devops-used-day-to-day-activit-chetan-/
+1. cat file_name
+2 chmod 777 file_name
+3. history
+4. rm -rf file_name
+5. touch devops.txt
+   cat devops.txt
+6. Please access Script.sh Parallel to repository.
+7 head -3 devops.txt | tail +1
+  Please access print_top_lines.png
+8  tail -3 devops.txt
+9. touch colour.txt
+   cat colour.txt
+10. Please access Script.sh Parallel to repository.
+11. 
+diff devops.txt colour.txt 
+Output-
+1,5c1,5
+< Apple
+< Mango
+< Banana
+< Cherry
+< Kiwi
+---
+> Red
+> Pink
+> White
+> Black
+> Blue
+7c7,8
+< Guava
+---
+> Purple
+> Grey
